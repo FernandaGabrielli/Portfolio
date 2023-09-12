@@ -1,0 +1,106 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #d3d6db;
+}
+
+.navbar {
+    background-color: #111111;
+}
+
+h5 {
+    color: #be3144;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #d3d6db;
+    color: #be3144;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #d3d6db;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Roboto, sans-serif;
+}
+
+.myself {
+    border-radius: 50%;
+    border: 5px solid #be3144; 
+    transition: border-color 0.3s ease;
+
+    &:hover {
+        border-color: #ff7e89;
+        opacity: 0.9;
+}
+}
+
+#sobre-mim {
+    background-color: #e3e7ee;
+}
+
+.text-colored {
+    color: #be3144;
+}
+
+.nav-link.active,
+#fale-conosco button {
+    background-color: #be3144;
+    color: #d3d6db;
+}
+
+.nav-link:hover {
+    color: #be3144;
+}
+
+#fale-conosco {
+    background-color: #e3e7ee;
+}
+
+.skills {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.skills li {
+    list-style: none;
+    display: inline;
+}
+
+.skills a {
+    text-decoration: none;
+}
+
+
+.social-links {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
